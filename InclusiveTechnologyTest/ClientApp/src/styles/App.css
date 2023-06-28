@@ -1,0 +1,55 @@
+/** Font Styling **/
+* {
+    color: #ffffff;
+}
+
+/** General Styling **/
+.container {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/** Planets List Styling **/
+.list-item {
+    cursor: pointer;
+}
+
+.list-item.active {
+    opacity: 0.5;
+}
+
+
+/** Planet Styling **/
+.planet {
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+}
+
+
+/** Background Image Styling **/
+.bg-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+
+}
+
+.list-wrapper {
+
+}
